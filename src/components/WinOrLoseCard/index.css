@@ -1,0 +1,104 @@
+.win-or-lose-card-container {
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #ffffff33;
+  opacity: 1;
+  border-radius: 7px;
+  border-color: 10px solid #ffffff30;
+  margin-top: 10px;
+}
+.result-emoji-image-size {
+  height: 180px;
+  width: 150px;
+}
+.result-text-play-again-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.win-result-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.score-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+}
+.score-numbers {
+  font-family: 'Roboto';
+  color: #6a59ff;
+}
+.play-again-button {
+  height: 35px;
+  width: 85px;
+  border-width: 0px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 767px) {
+  .win-or-lose-card-container {
+    min-width: 700px;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff33;
+    opacity: 1;
+    border-radius: 7px;
+    border-color: 10px solid #ffffff30;
+    margin-top: 10px;
+    height: 84vh;
+  }
+  .result-emoji-image-size {
+    height: 300px;
+    width: 280px;
+    order: 1;
+  }
+  .result-text-play-again-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .win-result-text {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .score-text {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 35px;
+  }
+  .score-numbers {
+    font-family: 'Roboto';
+    color: #6a59ff;
+    font-size: 40px;
+  }
+  .play-again-button {
+    height: 40px;
+    width: 100px;
+    border-width: 0px;
+    background-color: #ffce27;
+    color: #3d3d3d;
+    font-family: 'Roboto';
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+  }
+}
